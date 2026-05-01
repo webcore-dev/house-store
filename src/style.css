@@ -10,9 +10,15 @@
 
 @layer utilities {
   .bg-pic {
-    background: url("/public/house-store-background-1.jpg");
+    background: url("/house-store-background-1.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+  }
+
+  .bg-services-section {
+    background: url("/services-section.jpg");
+    background-position: center;
+    background-size: cover;
   }
 }
