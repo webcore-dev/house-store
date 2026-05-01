@@ -1,5 +1,4 @@
 import './style.css'
-import './output.css'
 
 let mobileMenu = document.querySelector('.open');
 let mobileMenuButton = document.querySelector('#mobile-menu-button');
