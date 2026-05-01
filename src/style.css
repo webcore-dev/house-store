@@ -10,7 +10,7 @@
 
 @layer utilities {
   .bg-pic {
-    background: url("/house-store/src/assets/house-store-background-1.jpg");
+    background: url("/public/house-store-background-1.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;

@@ -245,11 +245,11 @@
   .h-14 {
     height: calc(var(--spacing) * 14);
   }
+  .h-\[92vh\] {
+    height: 92vh;
+  }
   .h-full {
     height: 100%;
-  }
-  .h-screen {
-    height: 100vh;
   }
   .w-10 {
     width: calc(var(--spacing) * 10);
@@ -399,8 +399,8 @@
       background-color: color-mix(in oklab, var(--color-white) 60%, transparent);
     }
   }
-  .bg-\[url\(\'\/house-store\/src\/assets\/house-store-background-1\.jpg\'\)\] {
-    background-image: url('/house-store/src/assets/house-store-background-1.jpg');
+  .bg-\[url\(\'\.\/house-store-background-1\.jpg\'\)\] {
+    background-image: url('./house-store-background-1.jpg');
   }
   .bg-cover {
     background-size: cover;
@@ -662,7 +662,7 @@
 }
 @layer utilities {
   .bg-pic {
-    background: url("/house-store/src/assets/house-store-background-1.jpg");
+    background: url("/public/house-store-background-1.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
