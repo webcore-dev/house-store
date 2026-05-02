@@ -6,7 +6,10 @@
   --font-roboto: "Roboto", sans-serif;
   --breakpoint-xs: 30rem;
   --breakpoint-2xs: 22.5rem;
+  --color-bg: white;
 }
+
+@custom-variant dark (&:where(.dark, .dark *));
 
 @layer utilities {
   .bg-pic {

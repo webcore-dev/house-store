@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" class="scroll-smooth dark:bg-slate-900">
+<html lang="fr" class="scroll-smooth duration-500 dark:bg-slate-900">
 
 <head>
   <meta charset="UTF-8" />
@@ -69,13 +69,21 @@
         <li><a href="#contact" class="text-slate-900 hover:text-red-500 duration-200 ease-in-out">Contact</a></li>
       </ul>
 
-      <button
-        class="hidden lg:block text-red-500 border border-red-500 rounded-full pl-3 pr-1 hover:text-white hover:bg-red-500 duration-200 ease-in-out cursor-pointer font-semibold">Réserver
-        un
-        appel <i class="bi bi-arrow-up-right-circle-fill text-xl"></i></button>
+      <div class="flex items-center gap-3">
+        <div class="flex items-center gap-3">
+          <div id="dark-button" class="text-2xl cursor-pointer">
+            <i class="bi bi-moon-stars"></i>
+          </div>
 
-      <div id="mobile-menu-button" class="text-2xl lg:hidden cursor-pointer">
-        <i class="fa-solid fa-bars"></i>
+          <button
+            class="hidden lg:block text-red-500 border border-red-500 rounded-full pl-3 pr-1 hover:text-white hover:bg-red-500 duration-200 ease-in-out cursor-pointer font-semibold">Réserver
+            un
+            appel <i class="bi bi-arrow-up-right-circle-fill text-xl"></i></button>
+        </div>
+
+        <div id="mobile-menu-button" class="text-2xl lg:hidden cursor-pointer">
+          <i class="fa-solid fa-bars"></i>
+        </div>
       </div>
     </section>
 

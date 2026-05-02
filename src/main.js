@@ -24,3 +24,14 @@ window.addEventListener('scroll', () => {
         header.classList.remove('shadow-md');
     };
 });
+
+// ====== LA FONCTION DARK =========
+let darkButton = document.querySelector('#dark-button');
+let darkButtonIcon = document.querySelector('#dark-button i');
+
+darkButton.addEventListener('click', () => {
+    document.documentElement.classList.toggle('dark');
+    const isDark = document.documentElement.classList.contains('dark');
+    darkButtonIcon.classList = isDark ? 'bi bi-sun' : 'bi bi-moon-stars';
+});
+
