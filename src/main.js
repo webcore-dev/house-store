@@ -26,12 +26,25 @@ window.addEventListener('scroll', () => {
 });
 
 // ====== LA FONCTION DARK =========
-let darkButton = document.querySelector('#dark-button');
-let darkButtonIcon = document.querySelector('#dark-button i');
+const darkButton = document.querySelector('#dark-button');
+const darkButtonIcon = document.querySelector('#dark-button i');
 
+// =====INITIALISATION =======
+const savedTheme = localStorage.getItem('theme');
+
+if (savedTheme === 'dark') {
+    document.documentElement.classList.add('dark');
+} else {
+    document.documentElement.classList.remove('dark')
+};
+const isDark = document.documentElement.classList.contains('dark');
+darkButtonIcon.classList = isDark ? 'bi bi-sun' : 'bi bi-moon-stars';
+
+// ====== CLICK ======
 darkButton.addEventListener('click', () => {
     document.documentElement.classList.toggle('dark');
     const isDark = document.documentElement.classList.contains('dark');
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
     darkButtonIcon.classList = isDark ? 'bi bi-sun' : 'bi bi-moon-stars';
 });
 
