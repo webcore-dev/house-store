@@ -2,6 +2,11 @@
 
 @import "tailwindcss";
 
+@source "../index.html";
+@source "./**/*.{js,ts}";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --font-roboto: "Roboto", sans-serif;
   --breakpoint-xs: 30rem;
@@ -23,8 +28,6 @@
   /* BORDURE */
   --color-border: rgba(255, 255, 255, 0.05);
 }
-
-@custom-variant dark (&:where(.dark, .dark *));
 
 @layer utilities {
   .bg-pic {
