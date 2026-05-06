@@ -558,13 +558,13 @@
         </div>
 
         <div
-          class="flex flex-col gap-1 w-full overflow-hidden rounded-xl shadow-md bg-white dark:bg-bg-card lg:w-[90%]">
+          class="flex flex-col gap-1 w-full overflow-hidden rounded-xl shadow-md bg-white dark:bg-bg-card dark:shadow-bg-card-light duration-500 lg:w-[90%]">
           <div class="bg-red-500 text-white flex justify-between items-center px-3 py-2">
             <p class="text-sm w-10/12">Comment commencer le processus d'achat d'une maison ?</p>
             <i class="bi bi-dash-circle-fill text-lg"></i>
           </div>
 
-          <div class="flex flex-col gap-2 justify-between dark:bg-bg-card duration-500 px-3 py-2">
+          <div class="flex flex-col gap-2 justify-between dark:bg-bg-main duration-500 px-3 py-2">
             <p class="text-slate-800 dark:text-text-secondary duration-500 text-sm">Commencez par parcourir nos annonces
               et
               sélectionner les biens qui
@@ -576,6 +576,142 @@
             <div class="h-24 overflow-hidden w-full rounded-lg flex justify-center items-center">
               <img src="./src/assets/batiment.jpg" alt="photo"
                 class="w-full transition-transform duration-300 hover:scale-110">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION  AVIS -->
+    <section class="grid px-1.5 lg:px-24 py-8 w-full">
+      <div class="flex flex-col gap-4 overflow-hidden">
+        <div class="flex justify-between items-center">
+          <h3 class="text-slate-800 font-bold text-2xl dark:text-text-primary duration-500">Ce que <span
+              class="text-red-500">disent</span>
+            nos clients
+          </h3>
+
+          <div class="text-2xl text-red-500">
+            <span class="cursor-pointer"><i class="bi bi-arrow-left-circle"></i></span>
+            <span class="cursor-pointer"><i class="bi bi-arrow-right-circle-fill"></i></span>
+          </div>
+        </div>
+
+        <div class="flex overflow-x-auto scroll-smooth snap-x snap-mandatory no-scrollbar gap-4">
+          <div
+            class="p-4 rounded-xl overflow-hidden min-w-75 shadow border flex flex-col justify-between gap-4 transition-transform duration-300 hover:scale-105 hover:shadow-lg dark:shadow-bg-card-light dark:border-bg-card-light">
+            <div class="flex flex-col gap-4">
+              <div class="w-full flex gap-2.5">
+                <span class="text-orange-400 flex gap-1.5"><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-half"></i></span>
+
+                <span class="font-semibold">(4.5)</span>
+              </div>
+
+              <div class="relative">
+                <div class="max-h-24 overflow-y-auto no-scrollbar">
+                  <p class="text-sm text-gray-600 dark:text-text-secondary duration-500">
+                    "J'étais inquiet à l'idée de trouver la bonne assurance, mais le processus était simple et sans
+                    stress.
+                    Leur équipe m'a guidé à chaque étape du processus. J'étais inquiet à l'idée de trouver la bonne
+                    assurance. mais House-store a rendu le processus simple et
+                    sans stress."
+                  </p>
+                </div>
+
+                <div
+                  class="pointer-events-none absolute bottom-0 left-0 w-full h-8 bg-linear-to-t from-white dark:from-bg-main duration-500 to-transparent">
+                </div>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 rounded-full overflow-hidden">
+                <img src="./src/assets/profil-homme-1.jpg" alt="photo-homme" class="w-16">
+              </div>
+              <div>
+                <h3 class="font-bold text-slate-800 dark:text-text-primary duration-500">Olivier Ali</h3>
+                <p class="text-sm text-gray-600 dark:text-text-secondary duration-500">Propriétaire de BESI</p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="p-4 rounded-xl overflow-hidden min-w-75 shadow border flex flex-col justify-between gap-4 transition-transform duration-300 hover:scale-105 hover:shadow-lg dark:shadow-bg-card-light dark:border-bg-card-light">
+            <div class="flex flex-col gap-4">
+              <div class="w-full flex gap-2.5">
+                <span class="text-orange-400 flex gap-1.5"><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-half"></i></span>
+
+                <span class="font-semibold">(4.5)</span>
+              </div>
+
+              <div class="relative">
+                <div class="max-h-24 overflow-y-auto no-scrollbar">
+                  <p class="text-sm text-gray-600 dark:text-text-secondary duration-500">
+                    "J'étais inquiet à l'idée de trouver la bonne assurance, mais le processus était simple et sans
+                    stress.
+                    Leur équipe m'a guidé à chaque étape du processus. J'étais inquiet à l'idée de trouver la bonne
+                    assurance. mais House-store a rendu le processus simple et
+                    sans stress."
+                  </p>
+                </div>
+
+                <div
+                  class="pointer-events-none absolute bottom-0 left-0 w-full h-8 bg-linear-to-t from-white dark:from-bg-main duration-500 to-transparent">
+                </div>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 rounded-full overflow-hidden">
+                <img src="./src/assets/profil-femme-1.jpg" alt="photo-homme" class="w-16">
+              </div>
+              <div>
+                <h3 class="font-bold text-slate-800 dark:text-text-primary duration-500">Sandra Martinez</h3>
+                <p class="text-sm text-gray-600 dark:text-text-secondary duration-500">Propriétaire de BESI</p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="p-4 rounded-xl overflow-hidden min-w-75 shadow border flex flex-col justify-between gap-4 transition-transform duration-300 hover:scale-105 hover:shadow-lg dark:shadow-bg-card-light dark:border-bg-card-light">
+            <div class="flex flex-col gap-4">
+              <div class="w-full flex gap-2.5">
+                <span class="text-orange-400 flex gap-1.5"><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-half"></i></span>
+
+                <span class="font-semibold">(4.5)</span>
+              </div>
+
+              <div class="relative">
+                <div class="max-h-24 overflow-y-auto no-scrollbar">
+                  <p class="text-sm text-gray-600 dark:text-text-secondary duration-500">
+                    "J'étais inquiet à l'idée de trouver la bonne assurance, mais le processus était simple et sans
+                    stress.
+                    Leur équipe m'a guidé à chaque étape du processus. J'étais inquiet à l'idée de trouver la bonne
+                    assurance. mais House-store a rendu le processus simple et
+                    sans stress."
+                  </p>
+                </div>
+
+                <div
+                  class="pointer-events-none absolute bottom-0 left-0 w-full h-8 bg-linear-to-t from-white dark:from-bg-main duration-500 to-transparent">
+                </div>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 rounded-full overflow-hidden">
+                <img src="./src/assets/profil-homme-2.jpg" alt="photo-homme" class="w-16">
+              </div>
+              <div>
+                <h3 class="font-bold text-slate-800 dark:text-text-primary duration-500">George Marti</h3>
+                <p class="text-sm text-gray-600 dark:text-text-secondary duration-500">Propriétaire de BESI</p>
+              </div>
             </div>
           </div>
         </div>
