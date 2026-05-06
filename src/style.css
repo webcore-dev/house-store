@@ -30,6 +30,12 @@
 }
 
 @layer utilities {
+  .bg-pic-mobile {
+    background: url("/house-store-background-1.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
   .bg-pic {
     background: url("/house-store-background-1.jpg");
     background-position: center;
